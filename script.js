@@ -68,8 +68,6 @@ const optionsContainer = document.getElementById("options-container");
 const resultContainer = document.getElementById("result-container");
 const submitBtn = document.getElementById("submit-btn");
 
-/* Created By Yash kumar Banjare... */
-
 function showQuestion() {
   const current = questions[currentQuestionIndex];
   questionContainer.innerText = current.question;
@@ -101,7 +99,6 @@ function showQuestion() {
 submitBtn.addEventListener("click", () => {
   const current = questions[currentQuestionIndex];
   let userAnswer;
-/* Created By Yash kumar Banjare... */
 
   if (current.type === "single") {
     const selected = document.querySelector('input[name="answer"]:checked');
@@ -126,7 +123,6 @@ submitBtn.addEventListener("click", () => {
     userAnswers.push(userAnswer);
     if (input.toLowerCase() === current.answer.toLowerCase()) score++;
   }
-/* Created By Yash kumar Banjare... */
 
   currentQuestionIndex++;
 
@@ -148,7 +144,6 @@ function showResult() {
   questions.forEach((q, i) => {
     let userAns = userAnswers[i];
     let correctAns = q.answer;
-/* Created By Yash kumar Banjare... */
 
     // Format answers nicely
     if (Array.isArray(userAns)) userAns = userAns.join(", ");
@@ -172,6 +167,3 @@ function showResult() {
 }
 
 showQuestion();
-
-
-/* Created By Yash kumar Banjare... */
