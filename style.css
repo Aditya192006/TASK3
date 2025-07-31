@@ -7,8 +7,6 @@ body {
   align-items: center;
   height: 100vh;
 }
-/* Created By Yash kumar Banjare... */
-
 .quiz-container {
   background: #fff;
   border-radius: 20px;
@@ -52,7 +50,6 @@ input[type="text"] {
   border-radius: 10px;
   border: 1px solid #ccc;
 }
-/* Created By Yash kumar Banjare... */
 #submit-btn {
   margin-top: 20px;
   width: 100%;
@@ -68,11 +65,9 @@ input[type="text"] {
 #submit-btn:hover {
   opacity: 0.9;
 }
-/* Created By Yash kumar Banjare... */
 #result-container {
   margin-top: 20px;
   font-size: 1.2rem;
   text-align: center;
   color: #4a235a;
 }
-/* Created By Yash kumar Banjare... */
